@@ -1,0 +1,33 @@
+.grid-container3x3{
+
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content 1fr max-content;
+    position: relative;
+
+}
+.end{
+
+    justify-self: end;
+
+}
+.start{
+
+    justify-self: start;
+
+}
+.top-nav{
+    padding-top: 12px;
+    padding-bottom: $default-padding;
+    padding-right: 24px;
+    grid-column: 1/4;
+    border-bottom: 2px solid $main-blue;
+    a{
+        color: $off-white;
+        padding-left: 24px;
+    }
+    i{
+        padding-left: 12px;
+    }
+}
