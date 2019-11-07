@@ -1,0 +1,97 @@
+@keyframes up-down{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: -10px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+@keyframes small-blow-up{
+    0%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+@keyframes rotate-animation{
+
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+    
+
+}
+@keyframes on-off{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes color-change{
+    0%{
+        color: #cccccc;
+    }
+    20%{
+        color: #1A3DE8
+    }
+    40%{
+        color: #29FFBF
+    }
+    60%{
+        color: #96E81A
+    }
+    80%{
+        color: #FFB91C
+    }
+    100%{
+        color: #1CFF2E;
+    }
+}
+@keyframes blow-up{
+
+    0%{
+
+        transform: scale(0.1);
+
+
+    }
+    100%{
+
+        transform: scale(1.0);
+
+    }
+
+}
+@keyframes fade-in{
+
+    0%{
+
+        opacity: 0;
+
+    }
+    100%{
+
+        opacity: 1;
+
+    }
+
+}
