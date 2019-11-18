@@ -11,6 +11,7 @@ import { AnalyserenComponent } from './projects-v2/project-components/analyseren
 import { DefaultProjectComponent } from './projects-v2/project-components/default-project/default-project.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ClickableImg } from './generic-components/clickable-img.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     AnalyserenComponent,
     DefaultProjectComponent,
+    ClickableImg,
   ],
   imports: [
     BrowserModule,

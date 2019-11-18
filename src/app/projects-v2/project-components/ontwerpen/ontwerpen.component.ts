@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PortfolioRoutingService } from 'src/app/services/portfolio-routing-service';
 
-
 @Component({
   selector: 'app-ontwerpen',
   templateUrl: './ontwerpen.component.html',
